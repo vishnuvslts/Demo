@@ -28,7 +28,7 @@ public class BaseClassDemo {
 				 driver= new ChromeDriver();
 				 driver.get("https://www.seleniumeasy.com/test/input-form-demo.html");
 				 driver.manage().window().maximize();
-				 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS) ;
+				 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS) ;
 				  
 			  
 		  }
